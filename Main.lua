@@ -91,11 +91,13 @@ local PoeticRizzSection1 = PoeticRizz:CreateSection("Poetic Rizz", false)
 local TableOfRizz = {
     "It is not a great quantity of love that I need but a constant supply of your heart.",
     "May I have the distinguished honor and privilege of sitting next to you?",
-    "If you where Monday, I'd wish every day be Monday becuse your so beautiful.",
+    "If you were Monday, I'd wish every day be Monday becuse you are so beautiful.",
     "If your lips were plug and mine a switch, I would have the hair electrified and the heart lit",
-    "If my soul were a pen and my heart ink, with the blood of my veins I would write I love you.",
-    "If I had to choose between breathing and loving you.... I'd take my last breath to say I Love You",
-    "Roses are red, bananas are yellow, wanna go out with a nice little fellow?"
+    "Roses are red, bananas are yellow, wanna go out with a nice little fellow?",
+    "Let the fire of my lips melt the passion of your body, only then you will see the reflection of the universe.",
+    "Long live your father and your mother! And Blessed the day they conceived you.",
+    "This morning I saw a flower and I thought it was the most beautiful thing i have ever seen; until I met you.",
+    "If you were Monday, I'd want to be Tuesday so I could follow you forever."
 }
 
 for i, v in pairs(TableOfRizz) do
