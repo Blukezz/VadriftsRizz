@@ -54,25 +54,22 @@ local PickupLinesSection1 = PickupLines:CreateSection("Pick-Up Lines", false)
 
 local TableOfPickUpLines = {
     "Are you a magician? Because whenever I look at you, everyone else disappears.",
+    "Do you have a name, or can I call you mine?",
     "Is your name Google? Because you have everything I've been searching for.",
     "Excuse me, but I think you dropped something: my jaw.",
-    "If you were a vegetable, you'd be a cute-cumber!" ,
-    "Do you believe in love at first sight, or should I walk by again?",
-    "Is your dad a baker? Because you're a cutie pie!",
-    "Do you have a map? Because I keep getting lost in your eyes.",
-    "Are you a camera? Every time I look at you, I smile.",
-    "Is your name Wi-Fi? Because I'm feeling a connection.",
+    "Is your dad a baker? Because you're a cutie pie.",
+    "Are you a parking ticket? Because you've got 'Fine' written all over you.",
     "Can I follow you home? Cause my parents always told me to follow my dreams.",
-    "I must be in a museum, because you truly are a work of art.",
-    "I wish I were cross-eyed so I can see you twice.",
-    "If I could rearrange the alphabet, Id put U and I together."
+    "Is your name Wi-Fi? Because I'm really feeling a connection.",
+    "Do you believe in love at first sight, or should I walk by again?",
+    "Excuse me, but I think you dropped something: my pick-up line."
 }
 
 for i, v in pairs(TableOfPickUpLines) do
 	PickupLines:CreateButton({
 		Name = v,
 		Interact = "Chat",
-        PickupLinesSection1,
+        SectionParent = PickupLinesSection1,
 		Callback = function()
 			Chat(v)
 		end,
