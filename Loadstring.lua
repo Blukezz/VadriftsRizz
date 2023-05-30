@@ -1,1 +1,1 @@
--- Loadstring script
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Blukezz/VadriftsRizz/main/Main.lua'))()
