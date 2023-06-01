@@ -71,7 +71,9 @@ local TableOfPickUpLines = {
     "Is your avatar a sun? Because you brighten up my day more than Bloxy Cola.",
     "Are you a firework, cause i can light you up",
     "Are you a Roblox game? Because I can't stop playing you in my dreams.",
-    "Is your username a keyboard? Because you're just my type."
+    "Is your username a keyboard? Because you're just my type.",
+	"Are you Vietnamese? Because I think im falling pho you.",
+	"Girl, are you a game badge? Because you are totally worth every effort."
 }
 
 for i, v in pairs(TableOfPickUpLines) do
@@ -112,6 +114,79 @@ for i, v in pairs(TableOfRizz) do
         SectionParent = PoeticRizzSection1,
 		Callback = function()
 			Chat(v)
+		end,
+	})
+end
+
+local AntiChatLogs = Window:CreateTab("Anti Chat Loggers")
+local AntiChatLogsSection1 = AntiChatLogs:CreateSection("Anti Chat Loggers", false)
+
+local ACLNote = AntiChatLogs:CreateParagraph({
+	Title = "Note",
+	Content = "Please use any of the ACLs listed below as it prevents your chat messages from getting tracked stopping you from getting banned from roblox for dating or something.",
+}, AntiChatLogsSection1)
+
+local Acl1 = AntiChatLogs:CreateButton({
+	Name = "Simple",
+	Interact = "Execute",
+	SectionParent = AntiChatLogsSection1,
+	Callback = function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/tFqBYJeD'))()
+	end,
+})
+
+local Acl2 = AntiChatLogs:CreateButton({
+	Name = "Anthony's ACL",
+	Interact = "Execute",
+	SectionParent = AntiChatLogsSection1,
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua'))()
+	end,
+})
+
+local Acl3 = AntiChatLogs:CreateButton({
+	Name = "Normal",
+	Interact = "Execute",
+	SectionParent = AntiChatLogsSection1,
+	Callback = function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/46ymkuKR'))()
+	end,
+})
+
+local HaRIZZment = Window:CreateTab("HaRIZZment")
+local HaRIZZmentSection1 = HaRIZZment:CreateSection("Note", false)
+
+local HaRIZZmentNote = HaRIZZment:CreateParagraph({
+	Title = "IMPORTANT",
+	Content = "Please use a Anti Chat Logger while using these as you will get banned without it.",
+}, HaRIZZmentSection1)
+
+local HaRIZZmentSection2 = HaRIZZment:CreateSection("HaRIZZment", false)
+
+local TableOfHaRIZZment = {
+	{"Roses are red, Violets are blue, Come over here and drown in my СUМ.",    "Roses are red", "Violets are blue", "Come over here and drown in my", "СUМ."},
+	{"Do you like bacon? Wanna.. strip?",    "Do you like bacon?", "Wanna..", "s⁥⁥⁥⁥⁥⁥triр?"},
+	{"Pretend Im a pirate and give me that booty.",    "Pretend Im a pirate", "and give me that", "boоty."},
+	{"Are you feeling down? Because Id happily fill you up with СUМ.",   "Are you feeling down?", "Because Id happily fill you up with", "СUМ."}
+}
+
+for i, v in pairs(TableOfHaRIZZment) do
+    HaRIZZment:CreateParagraph({
+        Title = "Message",
+        Content = v[1],
+    }, HaRIZZmentSection2)
+
+	HaRIZZment:CreateButton({
+		Name = "Send Message",
+		Interact = "Chat",
+        SectionParent = HaRIZZmentSection2,
+		Callback = function()
+			for i, d in pairs(v) do
+				if d ~= v[1] then
+					Chat(d)
+					wait(1.5)
+				end
+			end
 		end,
 	})
 end
