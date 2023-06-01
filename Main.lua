@@ -3,7 +3,7 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Rafa
 local Window = Rayfield:CreateWindow({
 	Name = "Vadrifts Rizz | .gg/vadriftsx",
 	LoadingTitle = "Vadrifts Rizz Script",
-	LoadingSubtitle = "W rizz.",
+	LoadingSubtitle = ".gg/vadriftsx",
     OldTabLayout = true,
 	ConfigurationSaving = {
 		Enabled = false,
@@ -186,7 +186,7 @@ for i, v in pairs(TableOfHaRIZZment) do
 			for i, d in pairs(v) do
 				if d ~= v[1] then
 					Chat(d)
-					wait(1.5)
+					wait(1)
 				end
 			end
 		end,
