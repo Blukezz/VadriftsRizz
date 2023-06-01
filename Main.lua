@@ -165,6 +165,7 @@ local HaRIZZmentSection2 = HaRIZZment:CreateSection("HaRIZZment", false)
 
 local TableOfHaRIZZment = {
 	{"Roses are red, Violets are blue, Come over here and drown in my СUМ.",    "Roses are red", "Violets are blue", "Come over here and drown in my", "СUМ."},
+	{"If you were a balloon, Id totally b⁥⁥⁥⁥lоw yоu."},
 	{"Do you like bacon? Wanna.. strip?",    "Do you like bacon?", "Wanna..", "s⁥⁥⁥⁥⁥⁥triр?"},
 	{"Pretend Im a pirate and give me that booty.",    "Pretend Im a pirate", "and give me that", "boоty."},
 	{"Are you feeling down? Because Id happily fill you up with СUМ.",   "Are you feeling down?", "Because Id happily fill you up with", "СUМ."}
