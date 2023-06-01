@@ -38,7 +38,7 @@ local Paragraph = Home:CreateParagraph({
 local HomeSection2 = Home:CreateSection("Credits", false)
 
 local Credits1 = Home:CreateLabel("Blukez - Making the script", HomeSection2)
-local Credits2 = Home:CreateLabel("Vadrifts Team - Lines", HomeSection2)
+local Credits2 = Home:CreateLabel("Santi - Lines", HomeSection2)
 
 function Chat(message)
 	local args = {
@@ -136,7 +136,7 @@ local Acl1 = AntiChatLogs:CreateButton({
 })
 
 local Acl2 = AntiChatLogs:CreateButton({
-	Name = "Anthony's ACL",
+	Name = "Anthony's ACL (Rewritten)",
 	Interact = "Execute",
 	SectionParent = AntiChatLogsSection1,
 	Callback = function()
@@ -145,11 +145,11 @@ local Acl2 = AntiChatLogs:CreateButton({
 })
 
 local Acl3 = AntiChatLogs:CreateButton({
-	Name = "Normal",
+	Name = "Anthony's ACL",
 	Interact = "Execute",
 	SectionParent = AntiChatLogsSection1,
 	Callback = function()
-		loadstring(game:HttpGet('https://pastebin.com/raw/46ymkuKR'))()
+		loadstring(game:HttpGet('https://pastebin.com/raw/PZbnE4Fj'))()
 	end,
 })
 
@@ -164,11 +164,12 @@ local HaRIZZmentNote = HaRIZZment:CreateParagraph({
 local HaRIZZmentSection2 = HaRIZZment:CreateSection("HaRIZZment", false)
 
 local TableOfHaRIZZment = {
-	{"Roses are red, Violets are blue, Come over here and drown in my СUМ.",    "Roses are red", "Violets are blue", "Come over here and drown in my", "СUМ."},
-	{"If you were a balloon, Id totally b⁥⁥⁥⁥lоw yоu."},
-	{"Do you like bacon? Wanna.. strip?",    "Do you like bacon?", "Wanna..", "s⁥⁥⁥⁥⁥⁥triр?"},
-	{"Pretend Im a pirate and give me that booty.",    "Pretend Im a pirate", "and give me that", "boоty."},
-	{"Are you feeling down? Because Id happily fill you up with СUМ.",   "Are you feeling down?", "Because Id happily fill you up with", "СUМ."}
+	{"Roses are red, Violets are blue, Come over here and drown in my CUM.",    "R⁥⁥⁥⁥⁥⁥o⁥⁥⁥se⁥⁥⁥s a⁥⁥r⁥⁥e r⁥⁥e⁥⁥d", "V⁥io⁥⁥⁥⁥⁥⁥l⁥ets ar⁥e bl⁥ue", "C⁥o⁥⁥⁥⁥⁥m⁥⁥⁥⁥⁥⁥⁥⁥e⁥ ov⁥e⁥r ⁥⁥⁥⁥⁥he⁥re an⁥⁥⁥⁥⁥⁥d dr⁥⁥⁥⁥⁥⁥own i⁥⁥⁥⁥⁥n m⁥⁥⁥⁥⁥y", "СUМ."},
+	{"If you were a balloon, Id totally blow.. by the PENIS.", "I⁥⁥⁥⁥⁥⁥f y⁥⁥⁥⁥⁥⁥⁥⁥оu w⁥⁥⁥⁥⁥⁥⁥⁥er⁥⁥⁥e ⁥⁥⁥⁥a⁥⁥⁥ bа⁥⁥⁥⁥l⁥⁥⁥⁥⁥⁥lоon, I⁥⁥⁥⁥⁥⁥d tоt⁥⁥⁥a⁥⁥⁥⁥ll⁥⁥⁥⁥⁥⁥y", "⁥⁥В⁥⁥⁥⁥l⁥⁥⁥⁥⁥о⁥⁥⁥⁥⁥⁥⁥⁥⁥⁥w", "b⁥⁥⁥⁥⁥⁥u⁥⁥t ⁥⁥b⁥⁥⁥⁥y t⁥⁥⁥⁥⁥⁥h⁥⁥⁥⁥e", "⁥⁥Р⁥⁥⁥⁥⁥⁥⁥Е⁥⁥⁥⁥⁥⁥NIS."},
+	{"Do you like bacon? Wanna.. strip?",    "Dо you like bа⁥⁥⁥⁥cоn?", "Wаnnа..", "s⁥⁥⁥⁥⁥⁥triр?"},
+	{"Pretend Im a pirate and give me that booty.",    "Pr⁥еtenԁ lm а pirаt⁥е", "⁥⁥а⁥⁥⁥⁥⁥nԁ giv⁥е m⁥е th⁥⁥а⁥⁥⁥⁥⁥t", "bооty."},
+	{"Are you feeling down? Because Id happily fill you up with CUM.",   "аre yоu f⁥⁥⁥⁥⁥⁥е⁥⁥⁥⁥⁥⁥еlI⁥⁥⁥⁥⁥ing dоwn?", "B⁥⁥⁥⁥⁥⁥еcаuse I⁥⁥⁥⁥⁥⁥d hаpp⁥Ily fI⁥I⁥⁥⁥⁥⁥⁥l y⁥⁥⁥⁥⁥о⁥⁥⁥⁥⁥⁥⁥⁥⁥⁥⁥⁥υ⁥⁥ ⁥⁥υ⁥⁥р⁥⁥⁥⁥⁥ w⁥Ith", "СUМ."},
+	{"Fuck me if I’m wrong, but arent you Betty White?", "F⁥⁥υ⁥⁥с⁥⁥⁥⁥⁥⁥⁥Ꮶ М⁥⁥⁥⁥⁥⁥e⁥", "if I’m wrong, but", "arent you ⁥⁥В⁥⁥⁥⁥⁥⁥еtty Wһ⁥⁥⁥⁥⁥⁥it⁥⁥е?"}
 }
 
 for i, v in pairs(TableOfHaRIZZment) do
