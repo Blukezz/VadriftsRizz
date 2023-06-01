@@ -169,7 +169,7 @@ local TableOfHaRIZZment = {
 	{"Do you like bacon? Wanna.. strip?",    "Dо you like bа⁥⁥⁥⁥cоn?", "Wаnnа..", "s⁥⁥⁥⁥⁥⁥triр?"},
 	{"Pretend Im a pirate and give me that booty.",    "Pr⁥еtenԁ lm а pirаt⁥е", "⁥⁥а⁥⁥⁥⁥⁥nԁ giv⁥е m⁥е th⁥⁥а⁥⁥⁥⁥⁥t", "bооty."},
 	{"Are you feeling down? Because Id happily fill you up with CUM.",   "аre yоu f⁥⁥⁥⁥⁥⁥е⁥⁥⁥⁥⁥⁥еlI⁥⁥⁥⁥⁥ing dоwn?", "B⁥⁥⁥⁥⁥⁥еcаuse I⁥⁥⁥⁥⁥⁥d hаpp⁥Ily fI⁥I⁥⁥⁥⁥⁥⁥l y⁥⁥⁥⁥⁥о⁥⁥⁥⁥⁥⁥⁥⁥⁥⁥⁥⁥υ⁥⁥ ⁥⁥υ⁥⁥р⁥⁥⁥⁥⁥ w⁥Ith", "СUМ."},
-	{"Fuck me if I’m wrong, but arent you Betty White?", "F⁥⁥υ⁥⁥с⁥⁥⁥⁥⁥⁥⁥Ꮶ М⁥⁥⁥⁥⁥⁥e⁥", "if I’m wrong, but", "arent you ⁥⁥В⁥⁥⁥⁥⁥⁥еtty Wһ⁥⁥⁥⁥⁥⁥it⁥⁥е?"}
+	{"Fuck me if Im wrong, but arent you Betty White?", "F⁥⁥υ⁥⁥с⁥⁥⁥⁥⁥⁥⁥Ꮶ М⁥⁥⁥⁥⁥⁥e⁥", "if Im wrong, but", "arent you ⁥⁥В⁥⁥⁥⁥⁥⁥еtty Wһ⁥⁥⁥⁥⁥⁥it⁥⁥е?"}
 }
 
 for i, v in pairs(TableOfHaRIZZment) do
